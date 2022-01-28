@@ -30,7 +30,7 @@ export default {
 </script>
 
 <template>
-<Header title="你媽超胖" headerClassName="p-10 bg-red-200 mb-1" textClassName="text-center text-[3rem] text-gray-800"/>
+<Header title="你媽超胖"/>
 <Form :addText="pushText"/>
 <List :datas="datas" :deleteItem="deleteItem"/>
 <footer class="uppercase bg-gray-100 text-center fixed bottom-0 inset-x-0">power by qwq_789</footer>
